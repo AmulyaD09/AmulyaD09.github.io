@@ -1,0 +1,76 @@
+.page-bg-container {
+    background-color: #0c2443;
+}
+
+.page-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Roboto";
+    padding: 20px;
+    text-align: center;
+}
+
+.page-description {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding: 20px;
+    text-align: center;
+}
+
+.page-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.name {
+    color: #010911;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+    padding:10px;
+}
+
+.carousell-container {
+    border-radius: 5px;
+
+}
+
+.button {
+    background-color:#0c2443;
+    border-width: 2px;
+    color: #ffffff;
+    height: 50px;
+    width: 100px;
+    border-color: #ffffff;
+    margin: 10px;
+}
+
+.container {
+    background-color: #320303;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #320303;
+}
+
+
+.list-of-books {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.link{
+    font-size: 50px;
+}
+.page-hover:hover{
+    color:#ffffff;
+    font-size: 40px;
+    font-family: "Roboto";
+
+}
