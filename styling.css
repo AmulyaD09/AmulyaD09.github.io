@@ -4,10 +4,12 @@
 
 .page-heading {
     color: #ffffff;
-    font-size: 30px;
-    font-family: "Roboto";
+    font-size: 50px;
+    font-family: "Arial";
     padding: 20px;
+    margin-top:30px;
     text-align: center;
+    font-weight: bold;
 }
 
 .page-description {
