@@ -71,7 +71,7 @@
 
 
 <div id="sectionLinks">
-    <div class="links container d-flex flex-column justify-content-start">
+    <div class="links container2 d-flex flex-column justify-content-start">
         <a href="https://iitkgpacin-my.sharepoint.com/:f:/g/personal/saimonik532_iitkgp_ac_in/EjhA7XIxBglLsZeSrK_HqCABOjMl0opIOhchixrFhfFecw?e=8pkjTV" class="link" target="_blank">Master class</a>
         <a href="https://www.evernote.com/shard/s532/sh/4bdc758a-a483-dc89-931c-733a1f04995f/a0CUiP5mHMExuKrX8aUK_62UZ4CcEwWQ-xAxP2E0vzf9VOy4QwiFZMJMMQ" class="link" target="_blank">Randy Pausch</a>
         <a href="https://www.evernote.com/shard/s532/sh/1b7ee71f-facb-208b-28f7-d98885645bfc/YweVqyPzLpX6sik4TQjhoSTDWCzTpNAwN9gIPAq1pOtKMgRDWkVB9hcUzA" class="link" target="_blank">Paul Graham</a>
@@ -85,7 +85,7 @@
 </div>
 
     <div id="sectionYou">
-        <div class="carousell-container d-flex flex-column justify-content-start">
+        <!-- <div class="carousell-container d-flex flex-column justify-content-start">
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -111,10 +111,33 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
-            <div class="container">
-                <h1 class="page-hover">Mabbu</h1>
-                <p class="page-description"></p>
+            </div> -->
+            <div class="container-carousel">
+                <div class="carousel">
+                  <div class="carousel__face"><span>What</span></div>
+                  <div class="carousel__face"><span>is</span></div>
+                  <div class="carousel__face"><span>Existence</span></div>
+                  <div class="carousel__face"><span>without</span></div>
+                  <div class="carousel__face"><span>love?</span></div>
+                  <div class="carousel__face"><span></span></div>
+                  <div class="carousel__face"><span></span></div>
+                  <div class="carousel__face"><span></span></div>
+                  <div class="carousel__face"><span></span></div>
+                </div>
+              </div>
+
+            <div class="container3 d-flex flex-column justify-content-end">
+                <h1 class="page-hover">Kanha Shanthi vanam</h1>
+                <a class="clickit" href="https://heartfulness.org/kanha/" target="_blank">Heartfulness</a>
+                <button type="button" class="collapsible">Discover more info about this place which is a spiritual retreat, ecological initiative and much more</button>
+<div class="content">
+  <p><ul>
+    <li><a href="https://travellinkslive.com/kanha-shanti-vanam-the-way-forward/" target="_blank">the-way-forward</a></li>
+    <li><a href="https://www.newindianexpress.com/cities/hyderabad/2017/nov/29/kanha-shanti-vanam-for-city-weary-souls-seeking-spirituality-1714235.html"  target="_blank">seeking-spirituality</a> </li>
+    <li><a href="https://www.heartfulnessmagazine.com/prepare-to-make-a-difference/#:~:text=We%20are%20givers%20rather%20than,it%20all%20starts%20with%20contentment." target="_blank">heartfulness-magazine</a></li>
+  </ul></p>
+</div>
+
                 <div class="button-container d-flex justify-content-center">
                     <button class="button" onclick="display('sectionFrontPage')">Back</button>
                 </div>
@@ -200,7 +223,20 @@ const title7 = document.querySelector('#calendar-of-wisdom');
 title7.addEventListener('click', () => {
       window.open('Books/Calendar of Wisdom.pdf', '_blank');
     });
-    
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}  
 
 	
 </script>
