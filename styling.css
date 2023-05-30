@@ -31,6 +31,23 @@
     text-align: center;
 }
 
+.page-description1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  /* margin: 0 -.25rem;
+  padding: 0 .25rem; */
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.page-description1:hover {
+  color: #83bfd3;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+}
+
 .page-card {
     background-color: #ffffff;
     padding: 20px;
