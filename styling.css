@@ -134,7 +134,6 @@
 
 }
 
-<<<<<<< Updated upstream
 ul {
   list-style-type: none;
   font-size: 20px;
@@ -317,17 +316,3 @@ body {
   }
 
  
-=======
-.items{
-  width:90%;
-  margin:0px auto;
-  margin-top: 100px;
-}
-.slick-slide{
-  margin:10px;
-}
-.slick-slide img{
-  width:100%;
-  border: 0px ;
-}
->>>>>>> Stashed changes
